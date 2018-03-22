@@ -18,4 +18,5 @@ from moban import views
 
 urlpatterns = [
     url(r'^moban$', views.moban),
+    url(r'^moban2$', views.moban2),
 ]
